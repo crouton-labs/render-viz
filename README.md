@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@crouton-kit/render-viz"><img alt="npm" src="https://img.shields.io/npm/v/@crouton-kit/render-viz?label=npm"></a>
+  <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/license-GPL--3.0-blue"></a>
 </p>
 
 render-viz reads a Claude Code transcript (or a message, file or stdin), asks a Claude model to write a short visual summary of it as [termrender](https://github.com/crouton-labs/termrender) markdown, and opens the result in a tmux pane. It is meant for the moment when an assistant reply is long and you want the shape of it at a glance: a diagram of the architecture, the plan as a tree, the debugging path.
